@@ -80,7 +80,7 @@ section .title::after{
 /* navbar styling */
 .navbar{
     position: fixed;
-    width: 100%;
+    width: 120%;
     z-index: 999;
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
@@ -115,9 +115,10 @@ section .title::after{
     display: block;
     color: #fff;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 800;
     margin-left: 25px;
     transition: color 0.3s ease;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 .navbar .menu li a:hover{
     color: #f6631e;
