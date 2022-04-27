@@ -272,6 +272,72 @@ section .title::after{
 
 /*PLANOS*/
 
+.plans {
+    color:rgb(0, 0, 0);
+    /* background: #111; */
+}
+.plans .title::before{
+    background: #f6631e;
+    color: #f6631e;
+}
+.plans .title::after{
+    background: #111;
+    content: "";
+}
+.plans .value{
+   padding-top: 10px;
+   font-size: 60px; 
+   font-weight: bold;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+.plans .ul{
+    padding-top: 10px;
+    list-style-position: inside;
+    color: #eedede;
+    font-size: 17px;
+ }
+
+.plans .plans-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.plans .plans-content .card:hover{
+    background: #f6631e;
+}
+.plans .plans-content .card .box{
+    transition: all 0.3s ease;
+}
+.plans .plans-content .card:hover .box{
+    transform: scale(1.05);
+}
+.plans .plans-content .card i{
+    font-size: 50px;
+    color: #f6631e;
+    transition: color 0.3s ease;
+}
+.plans .plans-content .card:hover i{
+    color: #fff;  
+}
+
+ .plans .plans-content .card:hover p{
+    color: #fff;  
+} 
+
+.plans .plans-content .card .text{
+    font-size: 35px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    color: #f1f1f1;
+}
+ 
 
 
 
@@ -643,7 +709,7 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
-    .services .serv-content .card{
+    .services .serv-content .plans .plans-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
@@ -667,7 +733,7 @@ footer span a:hover{
     .home .home-content a{
         font-size: 20px;
     }
-    .services .serv-content .plans-content .card{
+    .services .serv-content .plans .plans-content .card{
         width: 100%;
     }
 }
