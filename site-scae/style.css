@@ -48,11 +48,11 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams,.plans .contact, footer{
+.about, .services,.fundamentos, .skills, .teams,.plans .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
-.about .about-content,
-.services .serv-content,.plans .plans-content, serv-content2,
+.about .about-content,.fundamentos .serv-content,
+.services .serv-content, .plans .plans-content, serv-content2,
 .skills .skills-content,
 .contact .contact-content{
     display: flex;
@@ -446,6 +446,55 @@ section .title::after{
 }
  
 
+/*FUNDAMENTOS*/
+.fundamentos, .teams{
+    /* margin-top: -100px; */
+    color:rgb(245, 245, 244);
+    background: #ffffff;
+}
+.fundamentos .title::before,
+.teams .title::before{
+    background: #f6631e;
+    color: #f6631e;
+}
+.fundamentos .title::after,
+.teams .title::after{
+    background: #111;
+    content: "";
+}
+.fundamentos .serv-content2 .card{
+    /* width: calc(33% - 20px); */
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.fundamentos .serv-content2 .card:hover{
+    background: #f6631e;
+}
+.fundamentos .serv-content2 .card .box{
+    transition: all 0.3s ease;
+}
+.fundamentos .serv-content2 .card:hover .box{
+    transform: scale(1.05);
+}
+.fundamentos .serv-content2 .card i{
+    font-size: 50px;
+    color: #f6631e;
+    transition: color 0.3s ease;
+}
+.fundamentos .serv-content2 .card:hover i{
+    color: #fff;
+}
+.fundamentos .serv-content2 .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+
 /* services section styling */
 .services, .teams{
     color:#fff;
@@ -738,6 +787,10 @@ footer span a:hover{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
+    .fundamentos .serv-content .plans .plans-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
     .skills .skills-content .column,
     .contact .contact-content .column{
         width: 100%;
@@ -759,6 +812,9 @@ footer span a:hover{
         font-size: 20px;
     }
     .services .serv-content2 .plans .plans-content .card{
+        width: 100%;
+    }
+    .fundamentos .serv-content2 .plans .plans-content .card{
         width: 100%;
     }
 }
