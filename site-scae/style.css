@@ -11,6 +11,19 @@ html{
     scroll-behavior: smooth;
 }
 
+.button a{
+    display: inline-block;
+    background: #f6631e;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #f6631e;
+    transition: all 0.3s ease;
+}
+
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -327,7 +340,7 @@ section .title::after{
 }
 
 .serviceteste .carousel .card:hover{
-    background: #f6631e;
+    background: #160c07;
 }
 .serviceteste .carousel .card .box{
     display: flex;
