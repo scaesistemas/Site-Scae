@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Administradora de Carteira", "Atendimento ao Cliente", "Software Completo", "Seu melhor parceiro!"],
+        strings: ["Administradora de Carteira", "Atendimento ao Cliente", "uma gestora de Loteamentos", "Seu melhor parceiro!"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Administradora de Carteira", "Atendimento ao Cliente", "Software Completo", "Seu melhor parceiro!"],
+        strings: ["Administradora de Carteira", "Atendimento ao Cliente", "uma gestora de Loteamentos", "Seu melhor parceiro!"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

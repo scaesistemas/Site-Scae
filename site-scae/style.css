@@ -293,11 +293,9 @@ section .title::after{
     margin: 10px 0 7px 0;
     color: #f1f1f1;
 }
-
 .serviceteste .carousel .card:hover i{
     color: #fff;  
 }
-
 .serviceteste .carousel .card i{
     font-size: 70px;
     padding-top: 15px;
@@ -310,7 +308,6 @@ section .title::after{
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
-
 .serviceteste .icon{
     list-style-position: inside;
     color: #eedede;
@@ -320,7 +317,6 @@ section .title::after{
 .serviceteste .box i{
     font-size: 15px;
 }
-
 .serviceteste{
     color:rgb(8, 8, 8);
     background: rgb(255, 255, 255);
@@ -329,7 +325,6 @@ section .title::after{
     background: #f6631e;
     color: #f6631e;
 }
-
 .serviceteste .carousel .card{
     background: #222;
     border-radius: 6px;
@@ -338,7 +333,6 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;  
 }
-
 .serviceteste .carousel .card:hover{
     background: #160c07;
 }
@@ -352,7 +346,6 @@ section .title::after{
 .serviceteste .carousel .card:hover .box{
     transform: scale(1.05);
 }
-
 .owl-dots{
     text-align: center;
     margin-top: 20px;
@@ -376,9 +369,43 @@ section .title::after{
 .serviceteste{
     font-family: 'Poppins', sans-serif;
 }
+details {
+display: block; 
+width: auto;
+margin: 10px 0;
+}
+details p { 
+padding-left: 30px;
+}
+summary {
+display: flex; 
+background: #f6631e;
+color: #fff;
+border-radius: 20px;
+padding: 8px;
+cursor: pointer;
+font-weight: 700;
+justify-content: flex-start;
+align-items: center;
+text-align: center;
+}
+summary::-webkit-details-marker {
+    display: none;
+}
+summary:before {
+    content: "+";
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 5px;
+    padding: 0;
+    width: 20px;
+    text-align: center;
+}
+details[open] summary:before {
+content: "-";
+}
 
 /*PLANOS*/
-
 .plans {
     color:rgb(0, 0, 0);
     /* background: #111; */
@@ -392,20 +419,18 @@ section .title::after{
     content: "";
 }
 .plans .value{
-   padding-top: 10px;
-   font-size: 60px; 
-   font-weight: bold;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   
-}
+padding-top: 10px;
+font-size: 60px; 
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+}
 .plans .ul{
     padding-top: 10px;
     list-style-position: inside;
     color: #eedede;
     font-size: 17px;
- }
-
+}
 .plans .plans-content .card{
     width: calc(33% - 20px);
     background: #222;
@@ -433,18 +458,16 @@ section .title::after{
 .plans .plans-content .card:hover i{
     color: #fff;  
 }
-
- .plans .plans-content .card:hover p{
+.plans .plans-content .card:hover p{
     color: #fff;  
 } 
-
 .plans .plans-content .card .text{
     font-size: 35px;
     font-weight: 500;
     margin: 10px 0 7px 0;
     color: #f1f1f1;
 }
- 
+
 
 /*FUNDAMENTOS*/
 .fundamentos, .teams{
@@ -714,6 +737,58 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+
+
+/* REDES SOCIAIS */
+.btn_social { 
+	width:100%; 
+	float:left; 
+	display:flex; 
+	margin:auto; 
+}
+.btn_social ul  { 
+	width:auto; 
+	margin:auto; 
+	float:left; 
+	display:block; 
+}
+.btn_social ul li  { 
+	position:relative; 
+	background:#555555; 
+	list-style:none; 
+	float:left; 
+	margin:5px; 
+	z-index:1; 
+	overflow:hidden; 
+	border-radius:3px; 
+	font-size:1.5em; 
+	text-align:center; 
+}
+.btn_social ul li a  { 
+	width:50px; 
+	height:50px; 
+	line-height:53px; 
+	display:block; 
+	text-decoration:none; 
+	color:#fff; 
+	transition:.4s;
+}
+.btn_social ul li::before { 
+	transition:0.4s; 
+	position:absolute; 
+	content:''; 
+	width:100%; 
+	height:100%; 
+	top:90%; 
+	left:0; 
+	background:#f6631e; 
+	z-index:-1; 
+	transform: scale(1); 
+	transition:.4s; 
+}
+.btn_social ul li:hover::before { transition:0.4s; top:0%; }
+.btn_social ul li a:hover       { color:#555555; }
+
 
 
 /* responsive media query start */
