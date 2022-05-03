@@ -155,26 +155,27 @@ section .title::after{
     font-size: 23px;
     cursor: pointer;
     display: none;
-    /* padding-left:  50%; */
+    /* padding-left:  100%;  */
 }
 .scroll-up-btn{
-    position: fixed;
+    position:fixed;
     height: 45px;
     width: 42px;
     background: #f6631e;
-    right: 30px;
-    bottom: 10px;
-    text-align: center;
+    /* right: 30px;  */
+    left: 30px;
+    bottom: 10px; 
+    text-align: center;  
     line-height: 45px;
-    color: #fff;
-    z-index: 9999;
+    color: #fff;  
+    z-index: 9999;   
     font-size: 30px;
     border-radius: 6px;
-    border-bottom-width: 2px;
+    border-bottom-width: 2px;  
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease;  
 }
 .scroll-up-btn.show{
     bottom: 30px;
