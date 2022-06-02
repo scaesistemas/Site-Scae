@@ -41,12 +41,7 @@ $(document).ready(function(){
         loop: true
     });
 
-    var typed = new Typed(".typing-2", {
-        strings: ["Administradora de Carteira de Recebíveis", "Atendimento ao Cliente", "uma gestora de Loteamentos", "Seu melhor parceiro!"],
-        typeSpeed: 50,
-        backSpeed: 60,
-        loop: true
-    });
+   
 
     // owl carousel script
     $('.carousel').owlCarousel({
