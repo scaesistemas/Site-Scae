@@ -841,18 +841,20 @@ footer span a:hover{
 .btn_social ul li:hover::before { transition:0.4s; top:0%; }
 .btn_social ul li a:hover       { color:#555555; }
 
-
+/*descomentei */
 @media (max-width: 1104px) {
     .service-software .service-software-content .left img{
-        /* max-height: 300px;
-        max-width: 300px; */
+          max-height: 300px;
+        max-width: 300px;  
     }
 }
 
+/*descomentei */
 @media (max-width: 1104px) {
     .about .about-content .left img{
-        /* height: 350px;
-        width: 350px; */
+        height: 350px;
+        width: 350px;  
+        
     }
 }
 
