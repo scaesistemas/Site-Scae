@@ -929,6 +929,11 @@ footer span a:hover{
     .contact .right form .fields{
         flex-direction: column;
     }
+    .contact .contact-content .img{
+        height: 300px;
+        width: 350px;
+    }
+
     .contact .right form .name,
     .contact .right form .email{
         margin: 0;
