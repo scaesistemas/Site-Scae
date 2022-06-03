@@ -654,7 +654,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 10px;
 }
 .contact .contact-content .left .icons{
-    margin: 10px 0;
+    margin: 30px 0;
 }
 .contact .contact-content .row{
     display: flex;
@@ -932,6 +932,7 @@ footer span a:hover{
     .contact .contact-content .img{
         height: 300px;
         width: 350px;
+        margin-top: -50px;
     }
 
     .contact .right form .name,
