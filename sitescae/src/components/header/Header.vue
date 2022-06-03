@@ -9,7 +9,7 @@
       <v-list-item class="pa-5">
         <div class="logo">
           <img
-            src="../../assets/images/logo/logonevoon.png"
+            src="../../assets/images/logo/logoscae.png"
             alt="Creative Agency Logo"
           />
         </div>
@@ -113,9 +113,9 @@ export default {
     drawer: false,
     items: [
       { title: "Home", to: "#home" },
-      { title: "Serviços"},
-      { title: "Sobre"},
-      { title: "Clientes" },
+      { title: "Serviços", to:"#serviços"},
+      //{ title: "Sobre"},
+      //{ title: "Clientes" },
     //  { title: "Contato", to: "#perguntas" },
     ],
     icon: "menu",

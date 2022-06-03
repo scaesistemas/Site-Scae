@@ -9,11 +9,11 @@ const routes = [
 
   {
     path: "/",
-    name: "Nevoon",
+    name: "Scae",
     meta: { 
-      title: "Nevoon",
+      title: "SCAE",
     },
-    component: () => import("../views/home/Nevoon.vue"),
+    component: () => import("../views/home/Scae.vue"),
   },
   {
     path: "/contact",
