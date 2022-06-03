@@ -841,19 +841,18 @@ footer span a:hover{
 .btn_social ul li:hover::before { transition:0.4s; top:0%; }
 .btn_social ul li a:hover       { color:#555555; }
 
-/*descomentei */
+
 @media (max-width: 1104px) {
     .service-software .service-software-content .left img{
-        max-height: 300px;
-        max-width: 300px;  
+        /* max-height: 300px;
+        max-width: 300px; */
     }
 }
 
-/*descomentei */
 @media (max-width: 1104px) {
     .about .about-content .left img{
-        height: 350px;
-        width: 350px;  
+        /* height: 350px;
+        width: 350px; */
     }
 }
 
@@ -972,11 +971,11 @@ footer span a:hover{
     }
 }
 
-    /*@media (max-width: 500px) {
+@media (max-width: 500px) {
     .service-software .service-software-content .left img{
        display: none;
     
-    }*/
+    }
 
     .home .home-content .text-2{
         font-size: 50px;
@@ -1017,3 +1016,4 @@ footer span a:hover{
         height: 350px;
         width: 350px;
     }
+}
