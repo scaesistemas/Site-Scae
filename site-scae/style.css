@@ -854,7 +854,6 @@ footer span a:hover{
     .about .about-content .left img{
         height: 350px;
         width: 350px;  
-        
     }
 }
 
@@ -973,11 +972,11 @@ footer span a:hover{
     }
 }
 
-@media (max-width: 500px) {
+    /*@media (max-width: 500px) {
     .service-software .service-software-content .left img{
        display: none;
     
-    }
+    }*/
 
     .home .home-content .text-2{
         font-size: 50px;
