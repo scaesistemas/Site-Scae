@@ -170,6 +170,28 @@
 /*------------------------
 Slider Styles  
 --------------------------*/
+
+
+designer-portfolio {
+  height: 700px;
+  @media #{$md-layout} {
+    height: auto;
+  }
+  @media #{$sm-layout} {
+    height: auto;
+  }
+  &.slider-style-3 {
+    @media #{$md-layout} {
+      height: auto;
+      padding: 100px 0;
+    }
+    @media #{$sm-layout} {
+      height: auto;
+      padding: 100px 0;
+    }
+  }
+}
+
 .slide {
   .inner {
     padding-top: 100px;
@@ -248,22 +270,22 @@ Slider Styles
     padding-bottom: 284px;
     overflow: hidden;
     @media #{$laptop-device} {
-      padding-top: 150px;
-      padding-bottom: 150px;
+     //padding-top: 150px;
+     //padding-bottom: 150px;
     }
     @media #{$lg-layout} {
-      padding-top: 160px;
-      padding-bottom: 170px;
+      //padding-top: 160px;
+      //padding-bottom: 170px;
       min-height: auto;
     }
     @media #{$md-layout} {
-      padding-top: 150px;
-      padding-bottom: 150px;
+      //padding-top: 150px;
+      //padding-bottom: 150px;
       min-height: auto;
     }
     @media #{$sm-layout} {
-      padding-top: 150px;
-      padding-bottom: 150px;
+     // padding-top: 150px;
+    //  padding-bottom: 150px;
       min-height: auto;
     }
 
@@ -271,8 +293,8 @@ Slider Styles
       min-height: 950px;
 
       @media #{$laptop-device} {
-        padding-top: 160px;
-        padding-bottom: 160px;
+        //padding-top: 160px;
+        //padding-bottom: 160px;
         min-height: auto;
       }
       @media #{$lg-layout} {
@@ -624,6 +646,7 @@ Slider Styles
             font-size: 36px;
             line-height: 53px;
           }
+          
         }
       }
     }
@@ -780,10 +803,7 @@ Slider Default
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
-.thumbnail img {
-  border-radius: 5px;
-  box-shadow: 0 25px 65px rgba(0, 0, 0, 0.1);
-}
+ 
 .box-model .service-wrapper {
   background-image: url(../images/bg/bg-image-1.jpg);
   padding: 10px 50px;

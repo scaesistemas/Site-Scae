@@ -42,8 +42,16 @@
            
           </v-list-item>
           <!-- End mobile menu sidebar item list -->
+
+           <div class="about-button pt--5">
+            <a target="_blank" class="rn-button-style--4"  href="https://materiais.scae.adm.br/conheca-a-scae">Contato</a>
+          </div> 
         </v-list>
+
+        
       </scrollactive>
+      
+      
     </v-navigation-drawer>
     <!-- End sidebar mobile menu -->
 
@@ -67,6 +75,7 @@
         v-html="iconSvg(icon)"
       >
       </v-btn>
+
       <!-- End mobile menu icon -->
       <v-toolbar-items class="hidden-xs-only hidden-sm-only height-auto">
         <scrollactive
@@ -83,8 +92,6 @@
             text
             class="scrollactive-item"
             >{{ item.title }}</v-btn>
-
-           
         </scrollactive>
 
           <div class="about-button">

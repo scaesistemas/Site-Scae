@@ -93,7 +93,7 @@
                 height: 100%;
             }
             img {
-                border-radius: 10px;
+                border-radius: 0;
                 @media #{$lg-layout} {
                     border-radius: 0;
                 }
@@ -197,6 +197,7 @@
         z-index: 1;
         @media #{$lg-layout} {
             margin-top: 0;
+            height: 10px;
         }
         @media #{$laptop-device} {
             margin-top: -89px;
@@ -230,7 +231,6 @@
 }
 
 .rn-content-box-style--1 {
-    //margin-top: 100px; 
     .content {
          text-align: left;
          padding: 0 120px;
@@ -284,3 +284,5 @@
             padding: 0 0;
     }
 }
+
+
