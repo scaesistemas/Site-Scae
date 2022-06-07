@@ -11,7 +11,7 @@
             <h1 slot="heading-title" class="heading-title theme-gradient">SCAE</h1>
             <p slot="description" class="description">Gestão de Carteira de lotes e terrenos.</p>
           </Banner>
-        </div>
+        </div> 
       </div>
   
       <v-row class="spacing-text pt--100" style="background-color: #FAFAFA"  id="serviços">

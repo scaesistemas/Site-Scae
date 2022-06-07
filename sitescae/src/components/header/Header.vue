@@ -68,7 +68,7 @@
       </router-link>
       <!-- End brand logo -->
       <v-spacer></v-spacer>
-      <v-btn
+      <v-btn 
         icon
         class="ma-0 pa-0 hidden-md-and-up"
         @click="drawer = !drawer"
