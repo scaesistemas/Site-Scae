@@ -31,21 +31,19 @@
     }
 }
 
-
-
 .portfolio {
     position: relative;
     @extend %transition;
-    min-height: 600px;
+    min-height: 450px;
     width: 100%;
     padding-top: 35%;
 
     @media #{$laptop-device} {
-        min-height: 500px;
+        min-height: 450px;
     }
 
     @media #{$lg-layout} {
-        min-height: 500px;
+        min-height: 450px;
     }
 
     @media #{$md-layout} {
@@ -53,7 +51,7 @@
     }
 
     @media #{$sm-layout} {
-        min-height: 400px;
+        min-height: 450px;
     }
 
     .thumbnail-inner {
@@ -68,10 +66,12 @@
         background-position: center;
         overflow: hidden;
         border-radius: 5px;
+        background-color: #414042;
+        text-align: center;
 
         &::before {
-            background-color: #f6631e;
-            background-image: linear-gradient(#f6631e 10%, #000000 100%);
+            background-color: rgba(255, 100, 100, 0);
+            
             position: absolute;
             content: "";
             top: 0;
@@ -81,6 +81,13 @@
             z-index: 5;
             opacity: 0;
             @extend %transition;
+        }
+
+        .icon {
+            margin-top: 35px;
+            font-size: 50px;
+            color: #f6631e;
+           
         }
     }
 
@@ -207,13 +214,17 @@
     }
 
     .content {
-        position: absolute;
-        bottom: 40px;
-        left: 40px;
-        right: 40px;
-        max-width: 100% !important;
-        z-index: 10;
-        padding: 0;
+        margin-top: 30px !important;
+       // position: absolute;
+       // bottom: 10px;
+      //  left: 40px;
+      //  right: 40px;
+        //max-width: 100% !important;
+        //z-index: 10;
+      //  padding: 0;
+        padding: 10px;
+        text-align: center;
+        color: #fff;
 
         @media #{$lg-layout} {
             left: 20px;
@@ -239,7 +250,7 @@
             h4 {
                 font-size: 24px;
                 line-height: 36px;
-
+                color: #fff;
                 a {
                     color: #ffffff;
                 }
@@ -265,7 +276,10 @@
                     }
                 }
             }
+            
+
         }
+         
     }
 
     &.text-center {

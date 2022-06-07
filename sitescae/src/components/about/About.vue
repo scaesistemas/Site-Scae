@@ -10,7 +10,7 @@
             </v-col>
           </v-row>
 
-          <v-row class="mr-6 section-subtitle">
+          <v-row class="mr-6 section-subtitle"> 
             <v-col lg="3" md="3" cols="12"></v-col>
             <v-col lg="8" md="12" cols="12">
               <p>Tem dúvidas sobre a Nevoon? Veja nossa seção de FAQ abaixo.</p>

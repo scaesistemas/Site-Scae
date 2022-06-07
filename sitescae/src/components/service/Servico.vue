@@ -2,7 +2,7 @@
   <div>
     <VueSlickCarousel  
       v-bind="settings"
-      class="slide rn-slick-activation portfolio-slick-activation item-fluid slick-dotted rn-slick-dot mt--40 mt_sm--40"
+      class=""
     >
      <div  
       class="mt--15 mt_sm--5 mt_md--5"
@@ -34,7 +34,7 @@
 <script>
   import VueSlickCarousel from "vue-slick-carousel";
   import feather from "feather-icons";
-  export default {
+  export default { 
 
     components: {
       VueSlickCarousel,
@@ -73,17 +73,15 @@
           slidesToShow: 5,
           slidesToScroll: 1,
           initialSlide: 1,*/
-           
-        "dots": true,
-        "infinite": true,
-        "slidesToShow": 3,
-        "slidesToScroll": 1,
-        "autoplay": false,
-        "autoplaySpeed": 2000,
-        "pauseOnDotsHover": true,
-        "pauseOnFocus": true,
-        "pauseOnHover": true,
-
+          "dots": true,
+          "infinite": true,
+          "slidesToShow": 3,
+          "slidesToScroll": 1,
+          "autoplay": false,
+          "autoplaySpeed": 2000,
+          "pauseOnDotsHover": true,
+          "pauseOnFocus": true,
+          "pauseOnHover": true,
           responsive: [
             {
               breakpoint: 1600,

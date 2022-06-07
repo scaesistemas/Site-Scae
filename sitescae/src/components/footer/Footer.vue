@@ -10,7 +10,7 @@
           <div class="inner">
             <div class="logo text-center text-sm-left mb_sm--20">
               <router-link to="/#home"
-                ><img height="50px" :src="logo" alt="Logo images"
+                ><img height="40px" :src="logo" alt="Logo images"
               /></router-link>
             </div>
           </div> 

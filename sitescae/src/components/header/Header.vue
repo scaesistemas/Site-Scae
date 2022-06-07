@@ -121,7 +121,7 @@ export default {
     items: [
       { title: "Home", to: "#home" },
       { title: "Serviços", to:"#serviços"},
-      //{ title: "Sobre"},
+      { title: "Sobre", to:"#sobre"},
       //{ title: "Clientes" },
     //  { title: "Contato", to: "#perguntas" },
     ],
