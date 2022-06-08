@@ -144,7 +144,7 @@
       <!-- FAIXA --> 
 
       <!-- SERVIÇOS -->
-      <div class="rn-team-area rn-section-gap bg_color--1" id="clientes">
+      <div class="rn-team-area rn-section-gap bg_color--1" >
           <v-container>
               <v-row>
                 <v-col lg="12">
