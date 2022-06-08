@@ -149,12 +149,12 @@ button {
                 border-color: $theme-color;
             }
     
-            &:hover {
+            /*&:hover {
                 background: transparent;
                 color:  #fff;
                 box-shadow: 0 10px 15px 0 rgba(249, 0, 77,0.1);
                 transform: translateY(-5px);
-            }
+            }*/
         }
         
         &.rn-button-style--4 {

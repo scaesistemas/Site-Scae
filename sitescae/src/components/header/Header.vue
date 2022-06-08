@@ -122,7 +122,7 @@ export default {
       { title: "Home", to: "#home" },
       { title: "Serviços", to:"#serviços"},
       { title: "Sobre", to:"#sobre"},
-      //{ title: "Clientes" },
+      { title: "Clientes", to:"#clientes" },
     //  { title: "Contato", to: "#perguntas" },
     ],
     icon: "menu",

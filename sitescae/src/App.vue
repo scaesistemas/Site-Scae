@@ -8,15 +8,15 @@
         v-scroll="onScroll"
         v-show="fab"
         fab
-        color="white"
+        color="primary"
         fixed
         width="50"
         height="50"
         bottom
-        right
+        left  
         @click="toTop"
       >
-        <i class="fa fa-angle-up"></i>
+        <i style="font-size:30px" class="fa fa-rocket" ></i>
       </v-btn>
     </v-fab-transition>
   </v-app>
@@ -62,7 +62,7 @@ export default {
 }
 .v-btn--absolute.v-btn--bottom,
 .v-btn--fixed.v-btn--bottom {
-  bottom: 60px;
+  bottom: 30px;
 }
 
 .v-btn--absolute.v-btn--right,

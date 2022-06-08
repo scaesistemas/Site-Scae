@@ -1,19 +1,33 @@
-<template>
-  <div>
+<template> 
+  <div> 
     <!-- Start Portfolio Activation  -->
     <VueSlickCarousel v-bind="settings" class="rn-slick-activation item-fluid slick-dotted rn-slick-dot mt--40 mt_sm--40">
       <!-- Start Single Portfolio  -->
-      <div class="portfolio" v-for="(item, i) in portfolioContent" :key="i">
+
+
+        <div class="portfolio" v-for="(item, i) in portfolioContent" :key="i">
         <div class="thumbnail-inner">
          <v-icon class="icon" >{{item.icon}}</v-icon>
           <div class="content">
             <div class="inner">              
-              <h4>{{ item.title }}</h4>
+              <h4>{{ item.title }}</h4> 
                <p>{{ item.meta }}</p> 
             </div>
           </div>
-        </div>
+        </div> 
       </div> 
+
+      <!-- <div class="portfolio" v-for="(item, i) in portfolioContent" :key="i">
+        <div class="thumbnail-inner">
+         <v-icon class="icon" >{{item.icon}}</v-icon>
+          <div class="content">
+            <div class="inner">              
+              <h4>{{ item.title }}</h4> 
+               <p>{{ item.meta }}</p> 
+            </div>
+          </div>
+        </div> 
+      </div>  -->
       <!-- End Single Portfolio  -->
     </VueSlickCarousel>
   </div>
@@ -26,7 +40,7 @@
       VueSlickCarousel,
     },
     data() {
-      return {
+      return {  
         portfolioContent: [
           {
             src: require("../../assets/images/portfolio/portfolio-2.jpg"),
@@ -69,10 +83,10 @@
         // for all works
         settings: {
           dots: true,
-          arrows: true,
-          infinite: true,
+          arrows: false,
+          infinite: false,
           speed: 500,
-          slidesToShow: 5,
+          slidesToShow: 3,
           slidesToScroll: 1,
           initialSlide: 0,
           responsive: [
@@ -80,7 +94,7 @@
               breakpoint: 1600,
               settings: {
                 slidesToShow: 4,
-                slidesToScroll: 1,
+                slidesToScroll: 4,
                 infinite: true,
                 dots: true,
               },
@@ -89,7 +103,7 @@
               breakpoint: 1263,
               settings: {
                 slidesToShow: 3,
-                slidesToScroll: 1,
+                slidesToScroll: 3,
                 infinite: true,
                 dots: true,
               },
@@ -98,16 +112,16 @@
               breakpoint: 770,
               settings: {
                 slidesToShow: 2,
-                slidesToScroll: 1,
+                slidesToScroll: 2,
                 initialSlide: 1,
               },
             },
             {
               breakpoint: 599,
               settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                initialSlide: 1,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2,
               },
             },
             {
@@ -115,7 +129,6 @@
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                arrows: false,
               },
             },          
              

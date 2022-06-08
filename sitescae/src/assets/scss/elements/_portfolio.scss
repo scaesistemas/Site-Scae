@@ -56,12 +56,13 @@
 
     .thumbnail-inner {
         transition: transform .28s ease;
+        margin: 10px;
         z-index: 9;
         position: absolute;
         top: 0;
         left: 0;
         height: 100%;
-        width: 100%;
+        // width: 100%;
         background-size: cover;
         background-position: center;
         overflow: hidden;
@@ -244,7 +245,7 @@
         .inner {
             p {
                 color: #c6c9d8;
-                font-size: 14px;
+                font-size: 16px;
             }
 
             h4 {

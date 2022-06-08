@@ -273,6 +273,29 @@
     }
 }
 
+.icons{
+    margin-top: 30px;
+    i{
+        color: #f6631e;
+        font-size: 40px;
+        margin-top: 5px;
+    }
+    p {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 23px;
+        font-weight: 500;
+        color: #717173;
+    }
+    ol{
+        font-weight: 500;
+        margin-left: 10px;
+        margin-left: 20px;
+        font-size: 20px;
+        color: #717173;
+    }
+}
+
 .spacing-text{
     text-align: left;
     padding: 0  60px;

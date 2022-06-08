@@ -3,7 +3,7 @@
     <VueSlickCarousel  v-bind="settings">
      <div  
       class="mt--15 mt_sm--5 mt_md--5"
-      v-for="(service, i) in serviceContent"
+      v-for="(service, i) in serviceContent" 
       :key="i"
     >
       <div class="single-service service__style--5 large-size text-center">
@@ -12,10 +12,11 @@
            <v-icon class="icon"> {{service.icon}}</v-icon>
             <h3 class="heading-title">{{ service.title }}</h3>
             <p> {{ service.desc }} </p>
-
             <h1 class="heading-title">{{service.titleButton}}</h1>
+             
             <p> Por parcela recebida</p>
-        
+            <p style="font-size:10px">{{service.subtile}}</p>
+            
             <div v-for="(item ,i) in service.itens"  :key="i">
               <div>
                 <v-icon size="10px" color="green" >fas fa-check</v-icon>
@@ -42,39 +43,36 @@
       return {
         serviceContent: [
           {
-            subtile: "Até 500 Lotes*",
+            subtile: "(Até 500 Lotes)",
             title: "Plano Standard",
-            desc: "R$ 249,00 mensais +",
+            desc: "R$ 299,00 mensais  +",
             titleButton:"R$ 8,99",
             icon:"fas fa-cloud",
             value:"(De 501 Até 1000 recebimentos mensais)",
-            itens: ["Gestão da carteira de recebíveis","Gestão eletrônica dos contratos","Serviço de atendimento aos ao cliente final da Contratante", "Cobrança contratual até 90 dias de atraso", "Régua de cobrança com envio automático de e-mails", "Portal para o cliente final emitir boleto e consultar o contrato", "Relatórios gerenciais e estratégicos"
-            ,"Dashboards e KPI's com resultados em tempo real", "10 GB de armazenamento de documentos", "Backup diário dos dados"]
+            itens: ["Administração do Loteamento", " Gestão de carteira de Recebíveis", "Gestão dos Contratos", "Cobrança Amigável"]
           },
           {
-            subtile: "Até 2000 lotes*",
+            subtile: "(De 501 até 1000 lotes)",
             title: "Plano Business",
-            desc: "R$ 299,00 mensais +",
-            titleButton:"R$ 9,99",
+            desc: "R$ 199,00 mensais  +",
+            titleButton:"R$ 7,99",
             icon:"fas fa-rocket",
             value:"(De 501 Até 1000 recebimentos mensais)",
-            itens: ["Gestão da carteira de recebíveis","Gestão eletrônica dos contratos","Serviço de atendimento aos ao cliente final da Contratante", "Cobrança contratual até 90 dias de atraso", "Régua de cobrança com envio automático de e-mails", "Portal para o cliente final emitir boleto e consultar o contrato", "Relatórios gerenciais e estratégicos", "Dashboards e KPI's com resultados em tempo real",
-            "50 GB de armazenamento de documentos", "Backup diário dos dados", "+ 1 Melhoria por mês sem custo", "Módulo Financeiro - Contas a Pagar e a Receber", "Módulo Almoxarifado - com multi almoxarifados", "Módulo de Compras", "Módulo Gestão de Contrato de Empreiteiros"]
+            itens: ["Administração do Loteamento", " Gestão de carteira de Recebíveis", "Gestão dos Contratos", "Cobrança Amigável"]
           },
           { 
-            subtile: "Por lote com boleto incluso*",
+            subtile: "(Acima de 1000 Lotes)",
             title: "Plano Corporate",
-            desc: "R$ 599,00 mensais +",
-            titleButton:"R$ 18,99",
+            desc: "___",
+            titleButton:"R$ 6,99",
             icon:"fa fa-globe",
             value:"",
-            itens: ["Gestão da carteira de recebíveis","Gestão eletrônica dos contratos","Serviço de atendimento aos ao cliente final da Contratante", "Cobrança contratual até 90 dias de atraso", "Régua de cobrança com envio automático de e-mails", "Portal para o cliente final emitir boleto e consultar o contrato", "Relatórios gerenciais e estratégicos", "Dashboards e KPI's com resultados em tempo real",
-            "100 GB de armazenamento de documentos", "Backup diário dos dados", "+ 1 Melhoria por mês sem custo", "Módulo Financeiro - Contas a Pagar e a Receber", "Módulo Almoxarifado - com multi almoxarifados", "Módulo de Compras", "Módulo Gestão de Contrato de Empreiteiros", "Cobrança pré judicial", "Cobrança Judicial"]
+            itens: ["Administração do Loteamento", " Gestão de carteira de Recebíveis", "Gestão dos Contratos", "Cobrança Amigável"]
           },          
         ],
         settings: {
           "dots": true,
-          "infinite": true,
+          "infinite": false,
           "slidesToShow": 3,
           "slidesToScroll": 1,
           "autoplay": false,
@@ -86,7 +84,7 @@
             {
               breakpoint: 1600,
               settings: {
-                slidesToShow: 4,
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
                 dots: true,

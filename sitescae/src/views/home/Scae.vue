@@ -133,7 +133,7 @@
               </v-container>
             </div>
           </div> 
-      <!-- PLANOS -->
+      <!-- PLANOS -->  
       
       <!-- FAIXA -->
           <div>
@@ -141,10 +141,24 @@
               <CallToActionTwo />
             </v-container>
           </div>   
-      <!-- FAIXA -->
+      <!-- FAIXA --> 
 
       <!-- SERVIÇOS -->
-          <div class="rn-portfolio-area rn-section-gap bg_color--1" style="background-color: #FAFAFA"> 
+      <div class="rn-team-area rn-section-gap bg_color--1" id="clientes">
+          <v-container>
+              <v-row>
+                <v-col lg="12">
+                  <div class="section-title text-center mb--0 mb_sm--0 mb_md--0">
+                    <h2 class="heading-title">Serviços de Gestão de Loteamento</h2>
+                  </div>
+                </v-col>
+              </v-row>
+               
+            <ServiceManagement />
+          </v-container>
+      </div>
+
+          <!-- <div class="rn-portfolio-area rn-section-gap bg_color--1" style="background-color: #FAFAFA"> 
             <div class="portfolio-sacousel-inner">
               <v-container>
                 <v-row>
@@ -164,7 +178,7 @@
                 </v-layout>
               </v-container>
             </div>
-          </div>
+          </div> -->
       <!-- SERVIÇOS -->
 
         <!-- PLANOS DOS SERVIÇOS GESTÃO DE LOTEAMENTOS -->
@@ -198,6 +212,30 @@
             </About>
           </div>
       <!-- SOBRE -->
+
+      <!-- CLIENTES -->
+       <div class="rn-team-area rn-section-gap bg_color--1" id="clientes">
+          <v-container>
+              <v-row>
+                <v-col lg="12">
+                  <div class="section-title text-center mb--20 mb_sm--0 mb_md--0">
+                    <h2 class="heading-title">Clientes</h2>
+                  </div>
+                </v-col>
+              </v-row>
+               
+            <TeamFour />
+          </v-container>
+      </div>
+       <!-- CLIENTES -->
+
+      <!-- CONTATO -->
+        <div class="about-area rn-section-gap bg_color--1"  style="background-color: #FAFAFA">
+          <Contact>
+            <img slot="thum-img" class="w-100" src="../../assets/images/about/about-3.jpg" alt="About Images"/>
+          </Contact>
+        </div>
+      <!-- CONTATO -->
     
       <!-- RODAPÉ  -->
           <Footer />
@@ -214,11 +252,11 @@ import CallToActionTwo from "../../components/callto-action/CallToActionTwo";
 import Contador from "../../components/contador/Contador";
 import Service from "../../components/service/Servico.vue";
 import ServiceSoftware from "../../components/service/ServiceSoftware.vue";
-
 import ServiceManagement from "../../components/service/Portfolio.vue";
-import Perguntas from "../../components/about/About";
+import Contact from "../../components/about/About";
 import Footer from "../../components/footer/Footer";
 import About from "../../components/about/About2";
+import TeamFour from "../../components/team/TeamFour.vue";
 
 export default {
   components: {
@@ -228,9 +266,10 @@ export default {
     Service,
     ServiceSoftware,
     ServiceManagement,
+    TeamFour,
     Contador,
     Footer,
-    Perguntas,
+    Contact,
     About
   },
   data() {
