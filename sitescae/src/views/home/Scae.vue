@@ -19,12 +19,12 @@
         <v-row class="spacing-text pt--100" style="background-color: #FAFAFA"  id="serviços">
           <v-col lg="12" class="pl-12">
             <div class="section-title text-left mb--0 mb_sm--0 mb_md--0">
-              <h2>Software para Gerenciar seus Loteamentos</h2>
+              <h2>Gestão e Automação da Cobrança dos seus Loteamentos</h2>
               <p>
 
                 Conheça as vantagens que o serviço da SCAE traz para você.
                 <br />
-                Automatize o gerenciamento dos recebíveis de seus lotes.
+                Automatize o gerenciamento dos recebíveis dos seus lotes através do nosso sistema.
               </p>
             </div>
           </v-col>
