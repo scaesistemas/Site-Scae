@@ -1,33 +1,6 @@
 <template> 
   <div>
-    <VueSlickCarousel  
-      v-bind="settings"
-      class=""
-    >
-     <!-- <div  
-      class="mt--15 mt_sm--5 mt_md--5"
-      v-for="(service, i) in serviceContent"
-      :key="i"
-    >
-      <div class="single-service service__style--4 large-size text-center">
-        <div class="mt--10 service">
-        <div class="content">  
-           <p> {{service.subtile}}</p>
-            <h3 class="heading-title">{{ service.title }}</h3>
-            <p> {{ service.desc }} </p>
-
-            <a v-if="service.desc != 0" class="rn-button-style--2 mt--30 mt_sm--30 mt_md--30" target="_blank" href="https://materiais.scae.adm.br/conheca-a-scae">
-              <span>{{service.titleButton}}</span>
-            </a>
-
-            <a v-else class="rn-button-style--2 mt--20 mt_sm--30 mt_md--30" target="_blank" href="https://materiais.scae.adm.br/conheca-a-scae">
-              <span>{{service.titleButton}}</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
+    <VueSlickCarousel  v-bind="settings">
       <div class="mt--15 mt_sm--5 mt_md--5">
         <div class="single-service service__style--4 large-size text-center">
           <div class="mt--10 service">
@@ -67,7 +40,6 @@
             <p> Por lote com boleto incluso*</p> 
               <h3 class="h3 heading-title">2 mil lotes+</h3>
 
-                  
                <a class="btn rn-button-style--2 mt--85 mt_sm--30 mt_md--30" target="_blank" href="https://materiais.scae.adm.br/conheca-a-scae">
                 <span>Contrate Agora</span>
               </a>

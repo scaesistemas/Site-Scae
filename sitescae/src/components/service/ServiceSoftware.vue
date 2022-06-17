@@ -5,7 +5,7 @@
       class="mt--15 mt_sm--5 mt_md--5"
       v-for="(service, i) in serviceContent" 
       :key="i"
-    >
+    > 
       <div class="single-service service__style--5 large-size text-center">
         <div class="mt--10 service">
          <div class="content">  
@@ -93,7 +93,7 @@
             {
               breakpoint: 1263,
               settings: {
-                slidesToShow: 3,
+                slidesToShow: 2,
                 slidesToScroll: 1,
                 infinite: true,
                 dots: true,

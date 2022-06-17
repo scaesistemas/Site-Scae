@@ -110,7 +110,7 @@
             </v-col>
           </v-row>
         </div> 
-
+ 
       <!-- PLANOS -->
           <div class="rn-portfolio-area rn-section-gap bg_color--1" style="background-color: #FAFAFA"> 
             <div class="portfolio-sacousel-inner">
@@ -144,41 +144,19 @@
       <!-- FAIXA --> 
 
       <!-- SERVIÇOS -->
-      <div class="rn-team-area rn-section-gap bg_color--1" >
-          <v-container>
-              <v-row>
-                <v-col lg="12">
-                  <div class="section-title text-center mb--0 mb_sm--0 mb_md--0">
-                    <h2 class="heading-title">Serviços de Gestão de Loteamento</h2>
-                  </div>
-                </v-col>
-              </v-row>
-               
-            <ServiceManagement />
-          </v-container>
-      </div>
-
-          <!-- <div class="rn-portfolio-area rn-section-gap bg_color--1" style="background-color: #FAFAFA"> 
-            <div class="portfolio-sacousel-inner">
-              <v-container>
+        <div class="rn-team-area rn-section-gap bg_color--1" >
+            <v-container>
                 <v-row>
                   <v-col lg="12">
-                    <div class="section-title text-center mb--20 mb_sm--0 mb_md--0">
+                    <div class="section-title text-center mb--0 mb_sm--0 mb_md--0">
                       <h2 class="heading-title">Serviços de Gestão de Loteamento</h2>
                     </div>
                   </v-col>
                 </v-row>
-              </v-container>
-
-              <v-container grid-list-md text-xs-center>
-                <v-layout row wrap>
-                  <v-flex xs12>
-                    <ServiceManagement />
-                  </v-flex>
-                </v-layout>
-              </v-container>
-            </div>
-          </div> -->
+                
+              <ServiceManagement />
+            </v-container>
+        </div>
       <!-- SERVIÇOS -->
 
         <!-- PLANOS DOS SERVIÇOS GESTÃO DE LOTEAMENTOS -->
@@ -214,34 +192,32 @@
       <!-- SOBRE -->
 
       <!-- CLIENTES -->
-       <div class="rn-team-area rn-section-gap bg_color--1" id="clientes">
-          <v-container>
-              <v-row>
-                <v-col lg="12">
-                  <div class="section-title text-center mb--20 mb_sm--0 mb_md--0">
-                    <h2 class="heading-title">Clientes</h2>
-                  </div>
-                </v-col>
-              </v-row>
-               
-            <TeamFour />
-          </v-container>
-      </div>
+          <div class="rn-team-area rn-section-gap bg_color--1" id="clientes">
+              <v-container>
+                  <v-row>
+                    <v-col lg="12">
+                      <div class="section-title text-center mb--20 mb_sm--0 mb_md--0">
+                        <h2 class="heading-title">Clientes</h2>
+                      </div>
+                    </v-col>
+                  </v-row>
+                  
+                <TeamFour />
+              </v-container>
+          </div>
        <!-- CLIENTES -->
 
       <!-- CONTATO -->
-        <div class="about-area rn-section-gap bg_color--1"  style="background-color: #FAFAFA">
-          <Contact>
-            <img slot="thum-img" class="w-100" src="../../assets/images/about/about-3.jpg" alt="About Images"/>
-          </Contact>
-        </div>
+          <div class="about-area rn-section-gap bg_color--1"  style="background-color: #FAFAFA">
+            <Contact>
+              <img slot="thum-img" class="w-100" src="../../assets/images/about/about-3.jpg" alt="About Images"/>
+            </Contact>
+          </div>
       <!-- CONTATO -->
     
       <!-- RODAPÉ  -->
           <Footer />
       <!-- RODAPÉ  -->
-
-      
   </div>
 </template>
 
