@@ -14,7 +14,7 @@
             </Banner>
           </div> 
         </div>
-     <!--BANNER FIM-->
+     <!--BANNER -->
     
         <v-row class="spacing-text pt--100" style="background-color: #FAFAFA"  id="serviços">
           <v-col lg="12" class="pl-12">
