@@ -76,7 +76,7 @@
                     <h2 class="heading-title">Sobre</h2>
                     <p class="description">
                         <span style="font-size: 20px; font-weight: 700;"> Somos a Gestão de carteiras de recebíveis,</span> 
-                        <span style="color:#f6631e; font-weight: 600;"> Sua melhor parceira</span>
+                        <span style="color:#f6631e; font-weight: 600;"> Sua melhor parceira.</span>
                         A SCAE foi fundada em 2018, como uma empresa de tecnologia especializada no ramo de gestão de carteira de loteamentos. 
                         Desde a sua fundação seus sócios que juntos possuem mais de 30 anos de experiência na ramo de loteamentos buscam soluções tecnológicas facilitadoras, 
                         práticas e seguras para loteadoras e proprietários de áreas.

@@ -12,9 +12,7 @@
                           <p> {{item.designation}} </p>
                       </v-col>
                     </div>
-                  </v-col>
-               
-             
+                  </v-col> 
               </VueSlickCarousel>
             </div>
         </div>
@@ -44,7 +42,7 @@
           },
           {
             id: 3,
-            src: require("../../assets/images/clientes/sem-foto.jpg"),
+            src: require("../../assets/images/clientes/logo-paracatu.jpg"),
             title: "Paracatu",
             designation: "Imobiliárias",
           },
