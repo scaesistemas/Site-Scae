@@ -158,59 +158,36 @@
           </v-container>
       </div>
 
-          <!-- <div class="rn-portfolio-area rn-section-gap bg_color--1" style="background-color: #FAFAFA"> 
-            <div class="portfolio-sacousel-inner">
-              <v-container>
-                <v-row>
-                  <v-col lg="12">
-                    <div class="section-title text-center mb--20 mb_sm--0 mb_md--0">
-                      <h2 class="heading-title">Serviços de Gestão de Loteamento</h2>
-                    </div>
-                  </v-col>
-                </v-row>
-              </v-container>
+      <!-- PLANOS DOS SERVIÇOS GESTÃO DE LOTEAMENTOS -->
+        <div class="rn-portfolio-area rn-section-gap bg_color--1" style="background-color: #FAFAFA"> 
+          <div class="portfolio-sacousel-inner">
+            <v-container>
+              <v-row>
+                <v-col lg="12">
+                  <div class="section-title text-center mb--20 mb_sm--0 mb_md--0">
+                    <h2 class="heading-title">Planos</h2>
+                  </div>
+                </v-col>
+              </v-row>
+            </v-container>
 
-              <v-container grid-list-md text-xs-center>
-                <v-layout row wrap>
-                  <v-flex xs12>
-                    <ServiceManagement />
-                  </v-flex>
-                </v-layout>
-              </v-container>
-            </div>
-          </div> -->
-      <!-- SERVIÇOS -->
-
-        <!-- PLANOS DOS SERVIÇOS GESTÃO DE LOTEAMENTOS -->
-          <div class="rn-portfolio-area rn-section-gap bg_color--1" style="background-color: #FAFAFA"> 
-            <div class="portfolio-sacousel-inner">
-              <v-container>
-                <v-row>
-                  <v-col lg="12">
-                    <div class="section-title text-center mb--20 mb_sm--0 mb_md--0">
-                      <h2 class="heading-title">Planos</h2>
-                    </div>
-                  </v-col>
-                </v-row>
-              </v-container>
-
-              <v-container grid-list-md text-xs-center>
-                <v-layout row wrap>
-                  <v-flex xs12>
-                    <ServiceSoftware />
-                  </v-flex>
-                </v-layout>
-              </v-container>
-            </div>
-          </div> 
+            <v-container grid-list-md text-xs-center>
+              <v-layout row wrap>
+                <v-flex xs12>
+                  <ServiceSoftware />
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </div>
+        </div> 
       <!-- PLANOS DOS SERVIÇOS GESTÃO DE LOTEAMENTOS -->
 
       <!-- SOBRE  -->
-          <div class="about-area rn-section-gap bg_color--1" id="sobre" >
-            <About>
-              <img slot="thum-img" class="w-100" src="../../assets/images/about/about-3.jpg" alt="About Images"/>
-            </About>
-          </div>
+        <div class="about-area rn-section-gap bg_color--1" id="sobre" >
+          <About>
+            <img slot="thum-img" class="w-100" src="../../assets/images/about/about-3.jpg" alt="About Images"/>
+          </About>
+        </div>
       <!-- SOBRE -->
 
       <!-- CLIENTES -->
