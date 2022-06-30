@@ -233,9 +233,9 @@
 .rn-content-box-style--1 {
     .content {
          text-align: left;
-         padding: 0 120px;
-         margin-left: 15px;
-        
+         padding: 0 100px;
+         margin-left: 15px; 
+         
         @media #{$md-layout} {
              padding: 0 60px; 
         }
@@ -253,6 +253,10 @@
              color: rgba(29, 29, 36, .75);
              font-size: 18px;
              line-height: 30px;
+
+             @media #{$laptop-device} {
+                font-size: 15px;
+            }
         }
         p.subtitle {
             color: #1f1f25;
@@ -269,7 +273,7 @@
     }
 
     .img{
-        padding-top: 50px;
+        padding-top: 50px
     }
 }
 

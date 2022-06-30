@@ -450,8 +450,9 @@
       margin-top: 20px !important;
 
       @media #{$laptop-device} {
-        font-size: 60px !important;
-        margin-bottom: 65px !important;
+        font-size: 50px !important;
+       // margin-bottom: 65px !important;
+       // margin-top: -10px !important;
       }
       @media #{$large-mobile} {
         font-size: 40px !important;
@@ -635,6 +636,7 @@
       &::before {
         opacity: 1;
         visibility: visible;
+        background-color: #160c07;
       }
        
       .content {
@@ -652,7 +654,7 @@
         //  color: #fff;
         }
         .icon {
-           color: #fff !important;
+           color: #f6631e !important;
         }
       }
     }

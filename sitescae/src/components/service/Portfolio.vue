@@ -2,32 +2,17 @@
   <div> 
     <!-- Start Portfolio Activation  -->
     <VueSlickCarousel v-bind="settings" class="rn-slick-activation item-fluid slick-dotted rn-slick-dot mt--40 mt_sm--40">
-      <!-- Start Single Portfolio  -->
-
-
-        <div class="portfolio" v-for="(item, i) in portfolioContent" :key="i">
+      <div class="portfolio" v-for="(item, i) in portfolioContent" :key="i">
         <div class="thumbnail-inner">
          <v-icon class="icon" >{{item.icon}}</v-icon>
           <div class="content">
             <div class="inner">              
               <h4>{{ item.title }}</h4> 
                <p>{{ item.meta }}</p> 
-            </div>
+            </div> 
           </div>
         </div> 
       </div> 
-
-      <!-- <div class="portfolio" v-for="(item, i) in portfolioContent" :key="i">
-        <div class="thumbnail-inner">
-         <v-icon class="icon" >{{item.icon}}</v-icon>
-          <div class="content">
-            <div class="inner">              
-              <h4>{{ item.title }}</h4> 
-               <p>{{ item.meta }}</p> 
-            </div>
-          </div>
-        </div> 
-      </div>  -->
       <!-- End Single Portfolio  -->
     </VueSlickCarousel>
   </div>
@@ -93,8 +78,8 @@
             {
               breakpoint: 1600,
               settings: {
-                slidesToShow: 4,
-                slidesToScroll: 4,
+                slidesToShow: 3,
+                slidesToScroll: 3,
                 infinite: true,
                 dots: true,
               },
